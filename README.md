@@ -78,7 +78,9 @@ python scripts/soak.py
 
 The live integration check exercises the real subprocess/channel, warm-up, suppression, noise, fault overrides, pause/resume, speed changes, and exported accounting. Browser tests exercise desktop/mobile controls, keyboard sliders, reduced motion, locally bundled assets, and screenshots. The soak check runs 1,800 simulation ticks at 5×, about six minutes of wall time, with changing noise/heating/faults; it is not a claim of a 30-minute wall-time test.
 
-These checks control the active demo and reset its run. Export anything you want to keep before executing them. Test screenshots/reports remain local and ignored.
+To check the packaged production app instead, set `$env:SIGNAL_LOOM_URL='http://127.0.0.1:8000'` before `npm run test:ui`. `node scripts/audit-browser.mjs` checks the production build without changing the experiment.
+
+These checks control the active demo and reset its run. Export anything you want to keep before executing them. Test screenshots/reports remain local and ignored. The final suite has eight backend tests and three browser tests, including packet lifetime at 5×, unique chart labels, benchmark retry, and stale connection behavior. See `evaluation/README.md` for recorded validation evidence.
 
 ## Results and reproducibility
 

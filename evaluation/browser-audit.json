@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "context": "Headless Chromium production build; three-second requestAnimationFrame sampling, not a guarantee for every device",
+  "errors": [],
+  "external_requests": [],
+  "layout": {
+    "width": 1440,
+    "pageWidth": 1440,
+    "fonts": true
+  },
+  "animation_sampling": {
+    "frames": 180,
+    "duration_ms": 3003.6,
+    "mean_interval_ms": 16.66555555555552,
+    "p95_interval_ms": 16.799999999999727
+  }
+}

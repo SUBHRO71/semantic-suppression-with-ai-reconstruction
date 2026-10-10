@@ -24,7 +24,7 @@ The approved PRD defines the scope. Controls alter heating, randomness, load, fa
 Working name: Signal Loom. Dark mode with several purposeful accent colors. Animation must explain the experiment, and important numbers must have meaningful visual companions.
 
 ## Evidence on Hand
-PRD.md is approved. No empirical performance results exist yet. All sensor values are simulated.
+PRD.md is approved. evaluation/report.json contains held-out synthetic benchmarks against hold-last and linear baselines. Code, separate-process transport, browser controls, reduced motion, and offline assets have been checked. All sensor values are simulated; measured results are not guarantees for physical sensors.
 
 ## Product Principles
 - Explain causality through visible flow and real events.
