@@ -8,10 +8,12 @@
     "pageWidth": 1440,
     "fonts": true
   },
+  "experiment_state": "running",
+  "simulation_speed": 1,
   "animation_sampling": {
     "frames": 180,
-    "duration_ms": 3003.6,
-    "mean_interval_ms": 16.66555555555552,
-    "p95_interval_ms": 16.799999999999727
+    "duration_ms": 3013.7000000476837,
+    "mean_interval_ms": 16.66555555555553,
+    "p95_interval_ms": 16.799999999999955
   }
 }

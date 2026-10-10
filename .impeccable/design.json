@@ -1,0 +1,371 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-10T12:20:05.035324+00:00",
+  "title": "Design System: Signal Loom",
+  "extensions": {
+    "colorMeta": {
+      "canvas": {
+        "role": "neutral",
+        "displayName": "Midnight navy",
+        "tonalRamp": [
+          "oklch(0.1500 0.0309 263.38)",
+          "oklch(0.2643 0.0309 263.38)",
+          "oklch(0.3786 0.0309 263.38)",
+          "oklch(0.4929 0.0309 263.38)",
+          "oklch(0.6071 0.0309 263.38)",
+          "oklch(0.7214 0.0309 263.38)",
+          "oklch(0.8357 0.0309 263.38)",
+          "oklch(0.9500 0.0309 263.38)"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "Slate navy",
+        "tonalRamp": [
+          "oklch(0.1500 0.0390 258.28)",
+          "oklch(0.2643 0.0390 258.28)",
+          "oklch(0.3786 0.0390 258.28)",
+          "oklch(0.4929 0.0390 258.28)",
+          "oklch(0.6071 0.0390 258.28)",
+          "oklch(0.7214 0.0390 258.28)",
+          "oklch(0.8357 0.0390 258.28)",
+          "oklch(0.9500 0.0390 258.28)"
+        ]
+      },
+      "raised": {
+        "role": "neutral",
+        "displayName": "Raised navy",
+        "tonalRamp": [
+          "oklch(0.1500 0.0474 258.69)",
+          "oklch(0.2643 0.0474 258.69)",
+          "oklch(0.3786 0.0474 258.69)",
+          "oklch(0.4929 0.0474 258.69)",
+          "oklch(0.6071 0.0474 258.69)",
+          "oklch(0.7214 0.0474 258.69)",
+          "oklch(0.8357 0.0474 258.69)",
+          "oklch(0.9500 0.0474 258.69)"
+        ]
+      },
+      "text": {
+        "role": "neutral",
+        "displayName": "Cool ivory",
+        "tonalRamp": [
+          "oklch(0.1500 0.0125 255.51)",
+          "oklch(0.2643 0.0125 255.51)",
+          "oklch(0.3786 0.0125 255.51)",
+          "oklch(0.4929 0.0125 255.51)",
+          "oklch(0.6071 0.0125 255.51)",
+          "oklch(0.7214 0.0125 255.51)",
+          "oklch(0.8357 0.0125 255.51)",
+          "oklch(0.9500 0.0125 255.51)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Blue gray",
+        "tonalRamp": [
+          "oklch(0.1500 0.0361 256.36)",
+          "oklch(0.2643 0.0361 256.36)",
+          "oklch(0.3786 0.0361 256.36)",
+          "oklch(0.4929 0.0361 256.36)",
+          "oklch(0.6071 0.0361 256.36)",
+          "oklch(0.7214 0.0361 256.36)",
+          "oklch(0.8357 0.0361 256.36)",
+          "oklch(0.9500 0.0361 256.36)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Structural slate",
+        "tonalRamp": [
+          "oklch(0.1500 0.0460 257.43)",
+          "oklch(0.2643 0.0460 257.43)",
+          "oklch(0.3786 0.0460 257.43)",
+          "oklch(0.4929 0.0460 257.43)",
+          "oklch(0.6071 0.0460 257.43)",
+          "oklch(0.7214 0.0460 257.43)",
+          "oklch(0.8357 0.0460 257.43)",
+          "oklch(0.9500 0.0460 257.43)"
+        ]
+      },
+      "cyan": {
+        "role": "primary",
+        "displayName": "Ice cyan",
+        "tonalRamp": [
+          "oklch(0.1500 0.1193 214.48)",
+          "oklch(0.2643 0.1193 214.48)",
+          "oklch(0.3786 0.1193 214.48)",
+          "oklch(0.4929 0.1193 214.48)",
+          "oklch(0.6071 0.1193 214.48)",
+          "oklch(0.7214 0.1193 214.48)",
+          "oklch(0.8357 0.1193 214.48)",
+          "oklch(0.9500 0.1193 214.48)"
+        ]
+      },
+      "violet": {
+        "role": "secondary",
+        "displayName": "Soft violet",
+        "tonalRamp": [
+          "oklch(0.1500 0.1394 293.07)",
+          "oklch(0.2643 0.1394 293.07)",
+          "oklch(0.3786 0.1394 293.07)",
+          "oklch(0.4929 0.1394 293.07)",
+          "oklch(0.6071 0.1394 293.07)",
+          "oklch(0.7214 0.1394 293.07)",
+          "oklch(0.8357 0.1394 293.07)",
+          "oklch(0.9500 0.1394 293.07)"
+        ]
+      },
+      "amber": {
+        "role": "tertiary",
+        "displayName": "Warm amber",
+        "tonalRamp": [
+          "oklch(0.1500 0.1160 72.81)",
+          "oklch(0.2643 0.1160 72.81)",
+          "oklch(0.3786 0.1160 72.81)",
+          "oklch(0.4929 0.1160 72.81)",
+          "oklch(0.6071 0.1160 72.81)",
+          "oklch(0.7214 0.1160 72.81)",
+          "oklch(0.8357 0.1160 72.81)",
+          "oklch(0.9500 0.1160 72.81)"
+        ]
+      },
+      "coral": {
+        "role": "tertiary",
+        "displayName": "Coral",
+        "tonalRamp": [
+          "oklch(0.1500 0.1608 15.75)",
+          "oklch(0.2643 0.1608 15.75)",
+          "oklch(0.3786 0.1608 15.75)",
+          "oklch(0.4929 0.1608 15.75)",
+          "oklch(0.6071 0.1608 15.75)",
+          "oklch(0.7214 0.1608 15.75)",
+          "oklch(0.8357 0.1608 15.75)",
+          "oklch(0.9500 0.1608 15.75)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Introductory statement."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Panel and evidence headings."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Introductory and loading explanations."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Control group names and strong labels."
+      },
+      "annotation": {
+        "displayName": "Annotation",
+        "purpose": "Hints, chart legends, and evidence descriptions."
+      },
+      "numeric": {
+        "displayName": "Numeric",
+        "purpose": "Process readings; tabular numerals."
+      },
+      "outcome": {
+        "displayName": "Outcome",
+        "purpose": "Large savings and event-delivery readings."
+      }
+    },
+    "shadows": [
+      {
+        "name": "slider-thumb",
+        "value": "0 2px 6px #0004",
+        "purpose": "WebKit range thumb contact only; no panel shadow."
+      }
+    ],
+    "motion": [
+      {
+        "name": "control-feedback",
+        "value": "0.18s ease",
+        "purpose": "Run-action fill/press and ghost-control background/color changes."
+      },
+      {
+        "name": "secondary-feedback",
+        "value": "0.2s ease",
+        "purpose": "Guided and fault actions, switches, and sensor-tab color changes."
+      },
+      {
+        "name": "outcome-bars",
+        "value": "0.3s ease",
+        "purpose": "Traffic and error bar transforms."
+      },
+      {
+        "name": "packet-travel",
+        "value": "1s easeInOut",
+        "purpose": "Actual frame movement through the process SVG."
+      },
+      {
+        "name": "packet-fade",
+        "value": "1.05s",
+        "purpose": "Authored packet opacity fade."
+      },
+      {
+        "name": "numeric-spring",
+        "value": "stiffness: 180; damping: 30",
+        "purpose": "Brief metric interpolation, bypassed in reduced mode."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "0.01ms",
+        "purpose": "CSS animation and transition duration under reduced-motion preference."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide",
+        "value": "1600px",
+        "query": "(min-width: 1600px)"
+      },
+      {
+        "name": "compact-desktop",
+        "value": "1150px",
+        "query": "(max-width: 1150px)"
+      },
+      {
+        "name": "stacked",
+        "value": "900px",
+        "query": "(max-width: 900px)"
+      },
+      {
+        "name": "mobile",
+        "value": "620px",
+        "query": "(max-width: 620px)"
+      }
+    ],
+    "focus": [
+      {
+        "name": "keyboard",
+        "value": "2px solid {colors.cyan}; outline-offset: 4px",
+        "purpose": "Visible focus on actions, links, ranges, selects, and disclosure summaries."
+      }
+    ],
+    "provenance": {
+      "tokens": [
+        "src/global.css",
+        "src/styles.module.css"
+      ],
+      "components": [
+        "src/App.tsx",
+        "src/Controls.tsx",
+        "src/Pipeline.tsx",
+        "src/SignalChart.tsx",
+        "src/Outcomes.tsx"
+      ],
+      "visualEvidence": [
+        ".impeccable/review/desktop.png",
+        ".impeccable/review/mobile.png",
+        ".impeccable/review/stale.png",
+        ".impeccable/review/benchmark-error.png"
+      ],
+      "tonalRamps": "Derived OKLCH display metadata from shipped colors; not additional implementation tokens.",
+      "customProperties": "Source variables live on the app container. Snippets include literal fallbacks so they render independently and inherit source variables when available."
+    }
+  },
+  "components": [
+    {
+      "name": "Primary run action",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Start, pause, or resume the local experiment.",
+      "html": "<button class=\"ds-primary\"><svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><polygon points=\"6 3 20 12 6 21 6 3\"></polygon></svg>Resume</button>",
+      "css": ".ds-primary{display:inline-flex;align-items:center;justify-content:center;gap:7px;background:var(--cyan, #56d9f5);color:#092435;border:0;border-radius:7px;min-height:39px;padding:0 17px;font:800 12px Manrope,sans-serif;cursor:pointer;transition:background .18s,transform .18s}.ds-primary:hover{background:#82e6fa}.ds-primary:active{transform:scale(.98)}.ds-primary:focus-visible{outline:2px solid var(--cyan, #56d9f5);outline-offset:4px;}.ds-primary:disabled{opacity:.5;cursor:not-allowed}@media(prefers-reduced-motion:reduce){.ds-primary{transition-duration:.01ms}}"
+    },
+    {
+      "name": "Guided demo action",
+      "kind": "button",
+      "refersTo": "button-guided",
+      "description": "A violet secondary action for the guided experiment.",
+      "html": "<button class=\"ds-guided\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M12 7v14m0-14C8 3 4 3 2 4v16c2-1 6-1 10 1 4-2 8-2 10-1V4c-2-1-6-1-10 3Z\"></path></svg>Take the guided demo<svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14m-7-7 7 7-7 7\"></path></svg></button>",
+      "css": ".ds-guided{display:inline-flex;align-items:center;justify-content:center;gap:9px;background:#211e37;color:#d0c2ff;border:1px solid #413858;padding:11px 15px;border-radius:8px;font:600 12px Manrope,sans-serif;cursor:pointer;transition:background .2s}.ds-guided:hover{background:#302944}.ds-guided:focus-visible{outline:2px solid var(--cyan, #56d9f5);outline-offset:4px;}.ds-guided:disabled{opacity:.5;cursor:not-allowed}@media(prefers-reduced-motion:reduce){.ds-guided{transition-duration:.01ms}}"
+    },
+    {
+      "name": "Signal range",
+      "kind": "input",
+      "refersTo": "slider",
+      "description": "A compact range with a readable label and mono value; the preview shows operating load.",
+      "html": "<div class=\"ds-range\"><label for=\"ds-load\"><span>Operating load</span><output>55%</output></label><input id=\"ds-load\" type=\"range\" min=\"0\" max=\"100\" value=\"55\" aria-label=\"Operating load\" style=\"--ds-fill:55%\"></div>",
+      "css": ".ds-range{width:230px;max-width:100%;font-family:Manrope,sans-serif}.ds-range label{display:flex;align-items:center;justify-content:space-between;gap:5px;flex-wrap:wrap;color:var(--muted, #a8b8ce);font-size:12px}.ds-range output{font:400 12px \"IBM Plex Mono\",monospace;color:#dbe5f4;font-variant-numeric:tabular-nums}.ds-range input{appearance:none;-webkit-appearance:none;width:100%;height:24px;margin:7px 0 0;background:transparent;display:block;cursor:pointer}.ds-range input::-webkit-slider-runnable-track{height:4px;border-radius:4px;background:linear-gradient(to right,var(--cyan, #56d9f5) var(--ds-fill),#34465e var(--ds-fill))}.ds-range input::-webkit-slider-thumb{appearance:none;-webkit-appearance:none;width:12px;height:12px;border-radius:50%;background:#d1f5fc;box-shadow:0 2px 6px #0004;margin-top:-4px}.ds-range input::-moz-range-track{height:4px;border-radius:4px;background:linear-gradient(to right,var(--cyan, #56d9f5) var(--ds-fill),#34465e var(--ds-fill))}.ds-range input::-moz-range-thumb{width:12px;height:12px;border:0;border-radius:50%;background:#d1f5fc}.ds-range input:focus-visible{outline:2px solid var(--cyan, #56d9f5);outline-offset:4px;}.ds-range input:disabled{opacity:.5;cursor:not-allowed}"
+    },
+    {
+      "name": "Sensor navigation",
+      "kind": "nav",
+      "refersTo": "sensor-tab",
+      "description": "Three sensor choices; the selected one has a cyan underline and pressed state.",
+      "html": "<nav class=\"ds-sensors\" aria-label=\"Sensor selection\"><button aria-pressed=\"true\">Temperature</button><button aria-pressed=\"false\">Vibration</button><button aria-pressed=\"false\">Power</button></nav>",
+      "css": ".ds-sensors{display:flex;align-items:center;gap:16px}.ds-sensors button{font:600 11px Manrope,sans-serif;padding:7px 0;border:0;border-bottom:2px solid transparent;background:transparent;color:var(--muted, #a8b8ce);cursor:pointer;transition:color .2s}.ds-sensors button[aria-pressed=true]{color:var(--cyan, #56d9f5);border-bottom-color:var(--cyan, #56d9f5)}.ds-sensors button:hover{color:var(--text, #eaf0f8)}.ds-sensors button:focus-visible{outline:2px solid var(--cyan, #56d9f5);outline-offset:4px;}@media(max-width:620px){.ds-sensors{gap:20px}}@media(prefers-reduced-motion:reduce){.ds-sensors button{transition-duration:.01ms}}"
+    },
+    {
+      "name": "Local channel tag",
+      "kind": "chip",
+      "refersTo": "channel-tag",
+      "description": "An inline locality label with a steady cyan dot.",
+      "html": "<span class=\"ds-channel\"><span aria-hidden=\"true\"></span>Local channel</span>",
+      "css": ".ds-channel{display:inline-flex;align-items:center;gap:6px;color:var(--muted, #a8b8ce);font:400 10px Manrope,sans-serif}.ds-channel>span{width:5px;height:5px;border-radius:50%;background:var(--cyan, #56d9f5)}"
+    },
+    {
+      "name": "Instrument panel",
+      "kind": "card",
+      "refersTo": "panel",
+      "description": "A matte surface with a compact title; no ambient panel shadow.",
+      "html": "<section class=\"ds-panel\" aria-labelledby=\"ds-panel-title\"><h2 id=\"ds-panel-title\">Original meets reconstructed</h2><p>Solid = truth, dashed = receiver</p></section>",
+      "css": ".ds-panel{max-width:440px;background:var(--surface, #121e30);color:var(--text, #eaf0f8);border-radius:14px;padding:22px 24px 12px;font-family:Manrope,sans-serif}.ds-panel h2{margin:0;font-size:14px;font-weight:600;letter-spacing:-.015em}.ds-panel p{margin:18px 0 0;color:var(--muted, #a8b8ce);font-size:11px}@media(max-width:620px){.ds-panel{padding:18px 14px 10px}.ds-panel h2{font-size:13px}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The precise laboratory instrument",
+    "overview": "Signal Loom uses navy depth, purposeful signal colors, geometric machine drawings, and legible readings to make a live experiment understandable. The approved direction is preserved: a dominant process stage carries the causal story, a comparison plot exposes reconstruction quality, and controls and evidence stay close to the experiment.\n\nThe material is matte and restrained. Manrope carries language; IBM Plex Mono makes quantities easy to compare. Animation explains actual decisions and transmissions, while the rotor is explicitly an illustrative load proxy. Outcome numbers have bars, traces, sample strips, or event journeys beside them. Estimates and measurements remain distinguishable through words and geometry as well as color.",
+    "keyCharacteristics": [
+      "A dark laboratory instrument with tonal surfaces and thin structural dividers.",
+      "Cyan measurements, violet reconstruction, amber suppression, and coral faults.",
+      "Locally bundled type, tabular readings, and geometric SVG process imagery.",
+      "Motion tied to experiment state, with equivalent static information.",
+      "Responsive density that preserves process, controls, outcomes, and evidence."
+    ],
+    "rules": [
+      {
+        "name": "The Signal Identity Rule",
+        "body": "Keep cyan measurement, violet reconstruction, amber suppression or correction, and coral event or failure meanings consistent across diagrams, charts, controls, and evidence.",
+        "section": "colors"
+      },
+      {
+        "name": "The Redundant Encoding Rule",
+        "body": "Pair signal color with a line style, marker shape, or readable state label. Solid truth, dashed receiver traces, exact-sample circles, correction rings, and event labels remain identifiable without color alone.",
+        "section": "colors"
+      },
+      {
+        "name": "The Reading Rule",
+        "body": "Use IBM Plex Mono and tabular numerals for quantities and time, with explicit units or a nearby interpretation. Reserve Manrope for the language that explains the reading.",
+        "section": "typography"
+      },
+      {
+        "name": "The Matte Instrument Rule",
+        "body": "Build hierarchy with tone, spacing, type, and thin rules; keep shadows and translucent effects local to the control or process material that needs them.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** preserve the approved navy instrument palette and stable signal meanings.",
+      "**Do** pair each prominent experiment reading with its relevant trace, bar, sample strip, or event journey.",
+      "**Do** distinguish exact readings, estimates, corrections, and events through labels and geometry.",
+      "**Do** use locally bundled Manrope for language and IBM Plex Mono with tabular numerals for readings.",
+      "**Do** keep focus visible, controls labeled, and static information complete when motion stops.",
+      "**Do** preserve the process-to-controls-to-evidence reading order as the layout stacks."
+    ],
+    "donts": [
+      "**Don't** introduce decorative glass, excessive glow, constant blinking, or neon-green terminal styling.",
+      "**Don't** replace the outcome strip with a wall of identical filled statistic cards.",
+      "**Don't** animate fabricated traffic or let illustrative machine movement imply measured network latency.",
+      "**Don't** communicate live, stale, estimated, or fault state through color alone.",
+      "**Don't** hide missing data or failure behind a successful-looking value or fabricated calibration envelope."
+    ]
+  }
+}

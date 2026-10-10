@@ -21,6 +21,7 @@ try {
     width: innerWidth, pageWidth: document.documentElement.scrollWidth,
     fonts: document.fonts.check('12px Manrope') && document.fonts.check('12px "IBM Plex Mono"'),
   }));
+  const live = await (await page.request.get('http://127.0.0.1:8000/api/state')).json();
   const timing = await page.evaluate(() => new Promise(resolve => {
     const times = []; let previous; const started = performance.now();
     function frame(now) {
@@ -49,7 +50,8 @@ try {
   }
   const result = { passed: errors.length === 0 && external.length === 0 && layout.fonts && layout.pageWidth <= layout.width,
                    context: 'Headless Chromium production build; three-second requestAnimationFrame sampling, not a guarantee for every device',
-                   errors, external_requests: external, layout, animation_sampling: timing };
+                   errors, external_requests: external, layout,
+                   experiment_state: live.state, simulation_speed: live.config.speed, animation_sampling: timing };
   fs.writeFileSync('evaluation/browser-audit.json', JSON.stringify(result, null, 2));
   console.log(JSON.stringify(result));
   if (!result.passed) process.exitCode = 1;
