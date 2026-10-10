@@ -26,3 +26,12 @@ outputs/
 # Operating system files
 .DS_Store
 Thumbs.db
+
+# Verification artifacts and runtime databases
+test-results/
+playwright-report/
+.impeccable/review/
+*.sqlite3
+*.sqlite3-shm
+*.sqlite3-wal
+*.tsbuildinfo
